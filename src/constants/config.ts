@@ -40,13 +40,13 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "John Doe — 3D Portfolio",
-    fullName: "John Doe",
-    email: "johndoe@mail.com",
+    title: "Prajal JK —  Portfolio",
+    fullName: "Prajal JK",
+    email: "prajaljk7@mail.com",
   },
   hero: {
-    name: "John Doe",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: "Prajal JK",
+    p: ["I develop mobile apps", "interfaces and web applications"],
   },
   contact: {
     p: "Get in touch",
@@ -67,11 +67,7 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      content: "I'm a versatile software developer with expertise in Flutter, Dart, and PHP, and a deep mastery of the Laravel framework. I also specialize in designing intuitive UI/UX experiences using Figma. I quickly adapt to new technologies and thrive on collaborating with clients to create efficient, scalable, and user-friendly solutions that solve real-world challenges. Let's work together to bring your vision to life!",
     },
     experience: {
       p: "What I have done so far",

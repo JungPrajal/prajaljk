@@ -12,26 +12,23 @@ import {
   backend,
   creator,
   web,
-  javascript,
-  typescript,
+
   html,
   css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
+
+ 
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  php,
+  laravel,
+  flutter,
+
+  fresh,
+  xd,
+
+  
+  
+ 
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -55,7 +52,7 @@ const services: TService[] = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Flutter Developer",
     icon: mobile,
   },
   {
@@ -63,7 +60,7 @@ const services: TService[] = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "UI/UX Design",
     icon: creator,
   },
 ];
@@ -77,38 +74,20 @@ const technologies: TTechnology[] = [
     name: "CSS 3",
     icon: css,
   },
+ 
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "php",
+    icon: php,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Flutter",
+    icon: flutter,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "Laravel",
+    icon: laravel,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+
   {
     name: "git",
     icon: git,
@@ -117,158 +96,103 @@ const technologies: TTechnology[] = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+
 ];
 
 const experiences: TExperience[] = [
+
+
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    companyName: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+    "title": "Flutter App Developer",
+    "companyName": "XDezo",
+    "icon": "xdezo.png",
+    "iconBg": "#E6DEDD",
+    "date": "june 2022 - sep 2022",
+    "points": [
+      "Developing and maintaining eLearning mobile applications using Flutter.",
+      "Integrating third-party APIs and services to enhance app functionality and performance.",
+      "Ensuring smooth and responsive UI/UX design for a seamless user experience.",
+      "Collaborating with designers and product managers to implement interactive and engaging learning features.",
+      "Testing and debugging the app across various devices to ensure reliability and performance."
+    ]
+  }
+
+
 ];
 
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "I thought it was impossible to make a website as beautiful as our product, but Prajal JK proved me wrong.",
+    name: "Samvap Paudel",
+    designation: "MD",
+    company: "Mudus Cafe",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "I've never met app developer who truly cares about their clients' success like Prajal JK does.",
+    name: "Mahesh Bhandari",
+    designation: "CFO",
+    company: "Mahesh Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+    name: "Subigya Gurung",
+    designation: "CEO",
+    company: "Subi Sip Cafe",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Fresh Picks",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A mobile app platform that seamlessly connects users with a variety of grocery providers, offering an effortless and efficient solution for searching, ordering, and delivering daily essentials..",
     tags: [
       {
-        name: "react",
+        name: "flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "dart",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "php,laravel",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    sourceCodeLink: "https://github.com/",
+    image: fresh,
+    sourceCodeLink: "https://github.com/JungPrajal/FreshPicks",
   },
   {
-    name: "Job IT",
+    name: "XD Learning",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "An innovative e-learning mobile app designed to empower learners with a personalized and interactive educational experience. This app provides access to a wide range of courses, from academic subjects to professional skills, all at your fingertips.",
     tags: [
       {
-        name: "react",
+        name: "flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "dart",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "node.js",  
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    sourceCodeLink: "https://github.com/",
+    image: xd,
+    sourceCodeLink: "https://github.com",
   },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    sourceCodeLink: "https://github.com/",
-  },
+  
+ 
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };
